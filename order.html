@@ -1,72 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/order.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <title>Coffee Time</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header-regular">
-        <h1>Logo</h1>
-        <nav>
-            <ul class="header-ul">
-                <li><a href="/index.html">About Us</a></li>
-                <li><a href="/aboutcoffee.html">About Coffee</a></li>
-                <li><a href="/coffeetypes.html">Coffee Types</a></li>
-                <li><a href="/order.html">Order</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="header-ul">
+          <li><a href="/index.html">About Us</a></li>
+          <li><a href="/aboutcoffee.html">About Coffee</a></li>
+          <li><a href="/coffeetypes.html">Coffee Types</a></li>
+          <li><a href="/order.html">Order</a></li>
+        </ul>
+      </nav>
+      <h1>Logo</h1>
     </header>
     <section class="order">
-        <div class="wrapper">
-            <h1 class="order-h1">Order</h1>
-            <form action="">
-                <label class="order-input-label" for="place-order">Place your order:</label>
-                <select class="order-input" name="place-order" id="place-order">
-                    <option value="">- Please select an option -</option>
-                    <option value="coffea arabica">Coffea arabica</option>
-                    <option value="coffea canephora/robusta">Coffea canephora/robusta</option>
-                    <option value="excelsa coffee bean">Excelsa coffee bean</option>
-                    <option value="coffea liberica">Coffea liberica</option>
-                </select>
-                <label class="order-input-label" for="quantity">Quantity:</label>
-                <input class="order-input" type="number" name="quantity" id="quantity">
-                <label class="order-input-label" for="delivery-address">Delivery address:</label>
-                <input class="order-input" type="text" name="delivery-address" id="delivery-address">
-                <label class="order-input-label" for="email">Email:</label>
-                <input class="order-input" type="email" name="email" id="email">
-                <label class="order-input-label" for="payment-method">Payment method:</label>
-                <select class="order-input" name="payment-method" id="payment-method">
-                    <option value="">- Please select an option -</option>
-                    <option value="visa">Visa</option>
-                    <option value="mastercard">MasterCard</option>
-                    <option value="paypal">Paypal</option>
-                </select>
-                <button class="order-button">Place your order</button>
-            </form>
-        </div>
+      <div class="wrapper">
+        <h1 class="order-h1">Order</h1>
+        <form action="">
+          <label class="order-input-label" for="place-order"
+            >Place your order:</label
+          >
+          <select class="order-input-width order-input order-input-margin" name="place-order" id="place-order">
+            <option value="">- Please select an option -</option>
+            <option value="coffea arabica">Coffea arabica</option>
+            <option value="coffea canephora/robusta">Coffea canephora/robusta</option>
+            <option value="excelsa coffee bean">Excelsa coffee bean</option>
+            <option value="coffea liberica">Coffea liberica</option>
+          </select>
+          <label class="order-input-label" for="quantity">Quantity:</label>
+          <input
+            class="order-input-width order-input order-input-margin"
+            type="number"
+            name="quantity"
+            id="quantity"
+          />
+          <label class="order-input-label" for="delivery-address"
+            >Delivery address:</label
+          >
+          <input
+            class="order-input-width order-input order-input-margin"
+            type="text"
+            name="delivery-address"
+            id="delivery-address"
+          />
+          <label class="order-input-label" for="email">Email:</label>
+          <input class="order-input-width order-input order-input-margin" type="email" name="email" id="email" />
+          <label class="order-input-label" for="payment-method"
+            >Payment method:</label
+          >
+          <select class="order-input-width order-input order-input-margin" name="payment-method" id="payment-method">
+            <option value="">- Please select an option -</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="paypal">Paypal</option>
+          </select>
+          <button class="order-button button">Place your order</button>
+        </form>
+      </div>
     </section>
     <footer class="footer">
-        <div class="wrapper">
-            <ul>
-                <li><a href="/index.html">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Where to find us</a></li>
-            </ul>
-            <form action="">
-                <label for="subscribe">Subscribe Newsletter</label>
-                <input type="email" name="subscribe" id="subscribe">
-            </form>
+      <div class="footer-wrapper wrapper">
+        <div class="footer-ul-wrapper">
+          <ul>
+            <li class="footer-ul-li"><a href="/index.html">About</a></li>
+            <li class="footer-ul-li"><a href="#">Contact</a></li>
+            <li class="footer-ul-li"><a href="#">Where to find us</a></li>
+          </ul>
         </div>
+        <div class="footer-form-wrapper">
+          <form action="">
+            <label class="footer-form-label" for="subscribe">Subscribe Newsletter:</label>
+            <input class="order-input footer-form-input footer-form-input-margin" type="email" name="subscribe" id="subscribe" />
+            <button class="button button-center">Subscribe</button>
+          </form>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
