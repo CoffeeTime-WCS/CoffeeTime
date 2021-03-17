@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Coffee Time</title>
 </head>
@@ -21,13 +22,31 @@
             </ul>
         </nav>
     </header>
-    <section class="AboutUs">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel repudiandae laboriosam, reprehenderit,
-            dolores
-            quod, expedita distinctio praesentium dolor labore architecto! Minima aspernatur iure eaque assumenda. Rem,
-            repellendus voluptatum voluptas aliquid, vitae numquam dignissimos ad, eum voluptates eligendi iure qui!
-            Molestiae tenetur soluta eveniet illum perspiciatis suscipit veniam vero beatae!</p>
+    <section class="h1 order">
+        <h1>Order</h1>
+        <form action="">
+            <label for="place-order"></label>
+            <select name="place-order" id="place-order">
+                <option value="">Please select an option</option>
+                <option value="coffea arabica">Coffea arabica</option>
+                <option value="coffea canephora/robusta">Coffea canephora/robusta</option>
+                <option value="excelsa coffee bean">Excelsa coffee bean</option>
+                <option value="coffea liberica">Coffea liberica</option>
+            </select>
+            <label for="quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity">
+            <label for="delivery-address">Delivery address</label>
+            <input type="text" name="delivery-address" id="delivery-address">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="payment-method">Payment method</label>
+            <select name="payment-method" id="payment-method">
+                <option value="">Please select an option</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="paypal">Paypal</option>
+            </select>
+        </form>
     </section>
     <footer>
         <ul>
