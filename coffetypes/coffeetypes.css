@@ -1,16 +1,32 @@
 body{
+    background-color: #f5f0e9;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.header-regular {
+    display: inline-block;
+    /* border: 2px solid black; */
+    background-color: #51392D;
+    width: 100%;
+    text-align: center;
+}
+.header-regular-logo{
+    color: #F3F0EA;
+    font-family: 'Dancing Script';
+    font-size: 3.5em;
+}
+.header-regular-nav {
 
 }
-header{
-
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
 }
 .coffeetypes h1 {
     display: block;
-    font-size: 4.5em;
-    margin-block-start: -1.33em;
-    margin-block-end: -0.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 5em;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
     color:#51392D;
@@ -18,47 +34,31 @@ header{
 .coffeetypes h2 {
     font-family: 'Dancing Script', cursive;
     color: #51392D;
-    font-size: 2em;
+    font-size: 2.5em;
 }
+.coffeetypes p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color:#51392D;
+    }
 .coffeetypes section{
-
+    display: inline-flex;
+    
 }
-.arabica div{
-
+.arabica {
+    display: inline-flex;
 }
-.arabica h2{
 
+.canephora-robusta{
+    display: inline-flex;
 }
-.arabica p{
+.excelsa {
+    display: inline-flex;
+}
+.liberica {
+    display: inline-flex;
+}
 
-}
-.canephora-robusta div{
-
-}
-.canephora-robusta h2{
-
-}
-.canephora-robusta p{
-
-}
-.excelsa div{
-
-}
-.excelsa h2{
-
-}
-.excelsa p{
-
-}
-.liberica div{
-
-}
-.liberica h2{
-
-}
-.liberica p{
-
-}
 footer{
     
 }
