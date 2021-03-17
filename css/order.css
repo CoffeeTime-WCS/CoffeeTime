@@ -1,0 +1,98 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-color: #F3F0EA;
+    --dark-color: #51392D;
+    --mid-color: #B89676;
+    --input-color: #E3DBC9;
+  }
+
+body {
+    background-color: var(--bright-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--dark-color);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.header-ul {
+    list-style: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.order-h1 {
+    margin-bottom: 3rem;
+}
+
+.order-input-label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+}
+
+.order-input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--input-color);
+    font-size: 1rem;
+    margin-bottom: 2.5em;
+    padding: 0 1rem;
+}
+
+/* prevent chrome from changing .order-input background-color on focus as well */
+.order-input:-webkit-autofill,
+.order-input:-webkit-autofill:hover,
+.order-input:-webkit-autofill:focus,
+.order-input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
+.order-button {
+    display: block;
+    margin: 2rem auto 10rem;
+    border-radius: 100px;
+    font-size: 1.25rem;
+    background-color: var(--mid-color);
+    border: none;
+    padding: 1rem 2rem;
+    transition: background-color 250ms ease-out, color 250ms ease-out;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: var(--dark-color);
+    color: var(--bright-color);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color:var(--input-color);
+}
