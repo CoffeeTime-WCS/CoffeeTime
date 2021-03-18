@@ -95,20 +95,6 @@ button {
     margin: 0rem auto 5rem;
 }
 
-.button {
-    display: block;
-    border-radius: 100px;
-    font-size: 1.25rem;
-    background-color: var(--mid-color);
-    border: none;
-    padding: .60rem 2rem;
-    transition: background-color 250ms ease-out, color 250ms ease-out;
-}
-
-.button-center {
-    margin: 0 auto;
-}
-
 .order-button:hover,
 .order-button:focus {
     background-color: var(--dark-color);
@@ -118,50 +104,7 @@ button {
 
 /* FORM END */
 
-/* FOOTER */
 
-.footer {
-    background-color: var(--dark-color);
-    color:var(--bright-color);
-    padding: 2em 0 4em;
-}
-
-.footer-ul-li {
-    margin-bottom: 0.5em;
-}
-
-.footer-ul-li a {
-    color: var(--bright-color);
-}
-
-.footer-ul-li a:hover,
-.footer-ul-li a:focus {
-    color: var(--mid-color);
-}
-
-.footer-form-wrapper {
-    text-align: center;
-}
-
-.footer-form-label {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    font-size: 1.15rem;
-}
-
-.footer-form-input-margin {
-    margin-bottom: 1em;
-}
-
-.footer-form-button:hover,
-.footer-form-button:focus {
-    background-color: var(--bright-color);
-    color: var(--dark-color);
-    cursor: pointer;
-}
-
-/* FOOTER END */
 
 @media screen and (min-width: 500px) {
     
