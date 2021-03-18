@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-color: #F3F0EA;
+    --dark-color: #51392D;
+    --mid-color: #B89676;
+    --input-color: #E3DBC9;
+  }
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--dark-color);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
