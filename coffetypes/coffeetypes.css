@@ -1,64 +1,257 @@
-body{
-    background-color: #f5f0e9;
+body { 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1rem; 
+    background-color: #F3F0EA; 
+    color:#51392D;
+    display: block;
+    line-height: 1.5;
 }
 img {
     width: 100%;
     height: auto;
 }
+p {
+    width:100%;
+    height: auto;
+}
+/*HEADER*/
 .header-regular {
     display: inline-block;
-    /* border: 2px solid black; */
-    background-color: #51392D;
+    background-color: #B89676;
     width: 100%;
     text-align: center;
 }
 .header-regular-logo{
+    font-family: 'Dancing Script', cursive;
     color: #F3F0EA;
-    font-family: 'Dancing Script';
     font-size: 3.5em;
+    font-weight: bold;
 }
-.header-regular-nav {
+.header-regular-li{
+    list-style: none;
+}
+.header-regular-li a{
+    color: #F3F0EA;
+    text-decoration: none;
+}
+.header-regular-li a:hover,
+.header-regular-li a:focus {
+    color:#51392D;
+}
+/*HEADER END*/
 
-}
+/*SECTION*/
 .wrapper {
-    width: 960px;
+    width: 90%;
     margin: 0 auto;
 }
 .coffeetypes h1 {
-    display: block;
-    font-size: 5em;
-    font-weight: bold;
     font-family: 'Dancing Script', cursive;
-    color:#51392D;
+    font-size: 3em;
+    text-align: left;
+
 }
+
 .coffeetypes h2 {
     font-family: 'Dancing Script', cursive;
-    color: #51392D;
-    font-size: 2.5em;
+    font-size: 2em;
+    text-align: left;
+    
 }
-.coffeetypes p{
+.coffeetypes a {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
+    text-decoration: none;
+    color: #B89676;
+}
+.coffeetypes a:hover,
+.coffeetypes a:focus {
     color:#51392D;
-    }
-.coffeetypes section{
-    display: inline-flex;
-    
 }
-.arabica {
+.arabica-parent {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.arabica{
+    margin-top: 20px;
     display: inline-flex;
+    flex-direction: column;
 }
 
+.arabicaImg{
+    padding: 0 15px;
+    display: inline-flex;
+}
+.arabica p{
+    padding: 10px 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+.canephora-robusta-parent {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 .canephora-robusta{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.canephora-robustaImg{
+    padding: 0 15px;
     display: inline-flex;
 }
-.excelsa {
+.canephora-robusta p{
+    padding: 10px 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+.excelsa-parent {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.excelsa{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.excelsaImg{
+    padding: 0 15px;
     display: inline-flex;
 }
-.liberica {
+.excelsa p{
+    padding: 10px 0;
     display: inline-flex;
+    flex-direction: column;
+}
+.liberica-parent {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.liberica{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.libericaImg{
+    padding: 0 15px;
+    display: inline-flex;
+}
+.liberica p{
+    padding: 10px 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+/*SECTION END*/
+/* FOOTER */
+.footer {
+    background-color: #51392D;
+    color: #F3F0EA;
+    padding: 2em 0 4em;
 }
 
-footer{
-    
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-ul-wrapper {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.footer-ul-li {
+    margin-bottom: 0.5em;
+}
+
+.footer-ul-li a {
+    color: #F3F0EA;
+}
+
+.footer-ul-li a:hover,
+.footer-ul-li a:focus {
+    color: #B89676;
+}
+
+.footer-form-wrapper {
+    text-align: center;
+}
+
+.footer-form-label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.footer-form-input-margin {
+    margin-bottom: 1em;
+}
+
+.button {
+    display: block;
+    border-radius: 100px;
+    font-size: 1.25rem;
+    background-color: #B89676;
+    border: none;
+    padding: .60rem 2rem;
+    transition: background-color 250ms ease-out, color 250ms ease-out;
+}
+
+.button-center {
+    margin: 0 auto;
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+    background-color: #F3F0EA;
+    color: #51392D;
+    cursor: pointer;
+}
+
+
+/* FOOTER END */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .arabica{
+        flex-direction: row;
+        
+    }
+    .arabicaP {
+    width: 90%;
+}
+.canephora-robusta{
+        flex-direction: row;
+        
+    }
+.canephora-robustaP {
+    width: 90%;
+}
+.excelsa{
+        flex-direction: row;
+        
+    }
+.excelsaP {
+    width: 90%;
+}
+.liberica{
+        flex-direction: row;
+        
+    }
+.libericaP {
+    width: 90%;
+}
+
 }
