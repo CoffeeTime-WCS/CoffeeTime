@@ -36,6 +36,7 @@ h1 {
 
 .header-regular a {
     color: var(--dark-color);
+    text-decoration: none;
 }
 
 .header-regular a:hover,
