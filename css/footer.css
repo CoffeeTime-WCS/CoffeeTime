@@ -119,3 +119,9 @@ button {
 
 
 
+  @media screen and (min-width: 1024px) {
+    .footer-social-media-wrapper {
+        margin-top: 4em;
+    }
+
+}

@@ -32,18 +32,17 @@ p {
 }
 
 .coffeetypes h2 {
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-size: 2em;
     text-align: left;
+    /* text-decoration: none; */
     color: #B89676;
-    
 }
-.coffeetypes a {
+.coffeetypesA {
     text-decoration: none;
     
 }
-.coffeetypes a:hover,
-.coffeetypes a:focus {
+.coffeetypes h2:hover{
     color:#51392D;
 }
 .arabica-parent {
@@ -120,6 +119,9 @@ p {
     flex-direction: column;
 }
 /*SECTION END*/
+@media screen and (min-width: 500px) {
+    
+}
 
 @media screen and (min-width: 1024px) {
     body {
@@ -167,18 +169,18 @@ p {
 .libericaP {
     width: 90%;
 }
-    /* HEADER */
+     /* HEADER */
 
     .header-wrapper {
         height: 115px;
     }
-
+    
     .menu-wrap .toggler,
     .menu-wrap .hamburger {
         top: 25px;
         left: 35px;
     }
 
-    /*HEADER END */
+    /* HEADER END */
 
 }

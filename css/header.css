@@ -41,7 +41,11 @@ h1 {
 
 .header-regular a:hover,
 .header-regular a:focus {
-    color:var(--mid-color);
+    color: var(--mid-color);
+}
+
+.header-logo {
+    font-size: 2.5rem;
 }
 
 /* HAMBURGER MENU */
@@ -66,8 +70,8 @@ h1 {
    
    .menu-wrap .toggler {
     position: absolute;
-    left: 0;
-    top: 7px;
+    left: 3vw;
+    top: 10px;
     cursor: pointer;
     z-index: 2;
     width: 60px;
@@ -77,8 +81,8 @@ h1 {
    
    .menu-wrap .hamburger {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 3vw;
     z-index: 1;
     height: 60px;
     width: 60px;
@@ -171,8 +175,8 @@ h1 {
    
    .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: #fff;
-    font-size: 1.3rem;
+    color: var(--bright-color);
+    font-size: 1.7rem;
     padding: 1rem;
    }
    
@@ -207,7 +211,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 70px;
+    height: 80px;
 }
 
 /* .header-nav-wrapper {
@@ -215,6 +219,35 @@ h1 {
 } */
 
 .header-logo-wrapper {
-    padding-right: 15px;
+    margin-right: 6vw;
 }
+
 /*  HEADER END */
+
+
+
+@media screen and (min-width: 1024px) {
+
+    /* HEADER */
+
+    .header-logo {
+        font-size: 3rem;
+    }
+
+    .header-wrapper {
+        height: 100px;
+    }
+    
+    .menu-wrap .toggler,
+    .menu-wrap .hamburger {
+        top: 20px;
+        left: 35px;
+    }
+
+    .header-logo-wrapper {
+        margin-right: 60px;
+    }
+
+    /* HEADER END */
+
+}
