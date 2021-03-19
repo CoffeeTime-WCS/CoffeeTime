@@ -56,16 +56,26 @@ button {
 .bg-img-wrapper {
   position: relative;
   height: 650px;
+  z-index: -1;
 }
 
 .bg-img-div {
   position: absolute;
   top: -70px;
   z-index: -1;
-  background-image: url("../assets/coffee-o-clock.jpeg");
+  background-image: url("../assets/coffee-o-clock-2.jpeg");
+  background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 700px;
   width: 100%;
+}
+
+.aboutus-h1 {
+  margin: 2rem 0 1.5rem;
+}
+
+.aboutus-p {
+  margin: 0rem auto 5rem;
 }
 
 /* MEDIA QUERY 1024px AND UP */
@@ -86,11 +96,16 @@ button {
 
   .bg-img-div {
     top: -100px;
+    height: 750px;
   }
 
   .wrapper {
     width: 960px;
     margin: 0 auto;
+  }
+
+  .aboutus-h1 {
+    margin: 3rem 0 1.5rem;
   }
 }
 
