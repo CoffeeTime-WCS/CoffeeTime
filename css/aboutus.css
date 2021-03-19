@@ -55,18 +55,18 @@ button {
 
 .bg-img-wrapper {
   position: relative;
-  height: 650px;
+  height: calc(100vh - 80px);
   z-index: -1;
 }
 
 .bg-img-div {
   position: absolute;
-  top: -70px;
+  top: -80px;
   z-index: -1;
   background-image: url("../assets/coffee-o-clock-2.jpeg");
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -92,6 +92,10 @@ button {
 
   h2 {
     font-size: 2rem;
+  }
+
+  .bg-img-wrapper {
+    height: 650px;
   }
 
   .bg-img-div {
