@@ -27,6 +27,7 @@ p {
     font-size: 3em;
     text-align: left;
     margin-top: 3rem;
+    
 
 }
 
@@ -34,12 +35,12 @@ p {
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
     text-align: left;
+    color: #B89676;
     
 }
 .coffeetypes a {
-    font-family: 'Dancing Script', cursive;
     text-decoration: none;
-    color: #B89676;
+    
 }
 .coffeetypes a:hover,
 .coffeetypes a:focus {
