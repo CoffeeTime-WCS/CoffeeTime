@@ -16,9 +16,3 @@ window.onscroll = function () {
     logo.classList.remove("scroll-logo");
   }
 };
-
-const orderButton = document.querySelector(".order-button");
-
-orderButton.addEventListener("click", function (event) {
-  alert("Thank you! Your order has been processed.");
-});
