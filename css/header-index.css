@@ -37,6 +37,23 @@ a {
   background-color: transparent;
   position: sticky;
   top: 0;
+  transition: background-color 250ms ease-in-out;
+}
+
+.scroll-header {
+  background-color: var(--mid-color);
+}
+
+.scroll-hamburger {
+  background-color: var(--dark-color) !important;
+}
+
+.scroll-logo {
+  color: var(--dark-color) !important;
+}
+
+.hamburger-line {
+  transition: background-color 250ms ease-in-out;
 }
 
 .header-regular a {
@@ -52,6 +69,7 @@ a {
 .header-logo {
   font-size: 2.5rem;
   color: var(--bright-color);
+  transition: color 250ms ease-in-out;
 }
 
 /* HAMBURGER MENU */
