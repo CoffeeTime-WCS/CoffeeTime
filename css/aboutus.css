@@ -69,6 +69,7 @@ button {
   background-size: cover;
   height: 100vh;
   width: 100%;
+  background-attachment: fixed;
 }
 
 .aboutus-h1 {

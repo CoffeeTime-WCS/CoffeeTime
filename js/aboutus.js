@@ -3,9 +3,15 @@ window.onscroll = function () {
   const hamburgerMenu = document.querySelector(".hamburger-line");
   const logo = document.querySelector(".header-logo");
 
+  /* 
+ document.body; -> Safari
+ document.documentElement; -> Chrome, Firefox, IE and Opera places the overflow at the <html> level, unless else is specified.
+ Therefore, we use the documentElement property for these browsers
+  */
+
   if (
-    document.body.scrollTop >= 280 ||
-    document.documentElement.scrollTop >= 280
+    document.body.scrollTop >= 250 ||
+    document.documentElement.scrollTop >= 250
   ) {
     navBar.classList.add("scroll-header");
     hamburgerMenu.classList.add("scroll-hamburger");
