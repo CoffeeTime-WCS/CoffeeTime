@@ -1,0 +1,97 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bright-color: #f3f0ea;
+  --dark-color: #51392d;
+  --mid-color: #b89676;
+  --input-color: #e3dbc9;
+}
+
+body {
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
+  color: var(--dark-color);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+select,
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bg-img-wrapper {
+  position: relative;
+  height: 650px;
+}
+
+.bg-img-div {
+  position: absolute;
+  top: -70px;
+  z-index: -1;
+  background-image: url("../assets/coffee-o-clock.jpeg");
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+/* MEDIA QUERY 1024px AND UP */
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .bg-img-div {
+    top: -100px;
+  }
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+/* MEDIA QUERY 1024px AND UP -- END */
