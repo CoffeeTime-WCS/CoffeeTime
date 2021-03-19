@@ -1,0 +1,16 @@
+body { 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1rem; 
+    background-color: #F3F0EA; 
+    color:#51392D;
+    display: block;
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+p {
+    width:100%;
+    height: auto;
+}
