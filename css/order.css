@@ -1,0 +1,146 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-color: #F3F0EA;
+    --dark-color: #51392D;
+    --mid-color: #B89676;
+    --input-color: #E3DBC9;
+  }
+
+body {
+    background-color: var(--bright-color);
+    color: var(--dark-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--dark-color);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+select,
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.order-h1 {
+    margin: 3rem 0 1.5rem;
+}
+
+/* FORM */
+
+.order-input-label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+}
+
+.order-input-width {
+    width: 100%;
+}
+
+.order-input-margin {
+    margin-bottom: 2.5em;
+}
+
+.order-input {
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--input-color);
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+/* prevent chrome from changing .order-input background-color on focus as well */
+.order-input:-webkit-autofill,
+.order-input:-webkit-autofill:hover,
+.order-input:-webkit-autofill:focus,
+.order-input:-webkit-autofill:active {
+    /* -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out; */
+    -webkit-box-shadow: 0 0 0 30px var(--input-color) inset !important;
+}
+
+.order-button {
+    margin: 0rem auto 5rem;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: var(--dark-color);
+    color: var(--bright-color);
+    cursor: pointer;
+}
+
+/* FORM END */
+
+
+
+@media screen and (min-width: 500px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    .header-wrapper {
+        height: 115px;
+    }
+    
+    .menu-wrap .toggler,
+    .menu-wrap .hamburger {
+        top: 25px;
+        left: 35px;
+    }
+
+    /* HEADER END */
+
+}

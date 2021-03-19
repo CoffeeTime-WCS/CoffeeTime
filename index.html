@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Coffee Time</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/aboutus.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive1.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Coffee O'Clock</title>
 </head>
 <body>
-    <header class="header-homepage">
-        <h1>Logo</h1>
-        <img src="/img.coffee/coffee time.jpeg" alt="coffeeTime">
-        <nav>
-            <ul>
-                <li><a href="/index.html">About Us</a></li>
-                <li><a href="/aboutcoffee.html">About Coffee</a></li>
-                <li><a href="/coffeetypes.html">Coffee Types</a></li>
-                <li><a href="/order.html">Order</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- HEADER -->
+    <header class="header-regular">
+        <div class="header-wrapper">
+          <div class="header-nav-wrapper">
+            <nav class="nav">
+  
+              <!-- HAMBURGER MENU -->
+              <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                 <div>
+                  <div>
+                   <ul>
+                    <li><a href="/index.html">About Us</a></li>
+                    <li><a href="/aboutcoffee.html">About Coffee</a></li>
+                    <li><a href="/coffeetypes.html">Coffee Types</a></li>
+                    <li><a href="/order.html">Order</a></li>
+                    <li><a href="#">Contact</a></li>
+                   </ul>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              <!-- HAMBURGER MENU END -->
+            </nav>
+        </div> <!-- header-nav-wrapper END -->
+        <div class="header-logo-wrapper">
+          <a href="/index.html"><h1 class="header-logo">Coffee O'Clock</h1></a>
+        </div> <!-- header-logo-wrapper END -->
+    </div> <!-- HEADER-WRAPPER END -->
+      </header>
+      <!-- HEADER END -->
     <section class="AboutUs">
         <h1>About Us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel repudiandae laboriosam, reprehenderit, dolores
@@ -29,9 +60,9 @@
     </section>
     <footer>
         <ul>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Where to find us</li>
+            <li><a href="/index.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Where to find us</a></li>
         </ul>
         <form action="">
             <label for="subscribe">Subscribe Newsletter</label>
