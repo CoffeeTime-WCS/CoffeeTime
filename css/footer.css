@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-color: #F3F0EA;
+    --dark-color: #51392D;
+    --mid-color: #B89676;
+    --input-color: #E3DBC9;
+  }
+
+/* h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--dark-color);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+} */
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--dark-color);
+    color:var(--bright-color);
+    padding: 2em 0 4em;
+}
+
+.footer-ul-li {
+    margin-bottom: 0.5em;
+}
+
+.footer-ul-li a {
+    color: var(--bright-color);
+}
+
+.footer-ul-li a:hover,
+.footer-ul-li a:focus {
+    color: var(--mid-color);
+}
+
+.footer-form-wrapper {
+    text-align: center;
+}
+
+.footer-form-label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 1.15rem;
+}
+
+.footer-form-input-margin {
+    margin-bottom: 1em;
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+    background-color: var(--bright-color);
+    color: var(--dark-color);
+    cursor: pointer;
+}
+
+.button {
+    display: block;
+    border-radius: 100px;
+    font-size: 1.25rem;
+    background-color: var(--mid-color);
+    border: none;
+    padding: .60rem 2rem;
+    transition: background-color 250ms ease-out, color 250ms ease-out;
+}
+
+.button-center {
+    margin: 0 auto;
+}
+
+/*  SVG ICONS - svgicons.sparkk.fr */
+
+.footer-social-media-wrapper {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.svg-icon {
+    width: 3em;
+    height: 3em;
+    transition: transform 250ms ease-out;
+  }
+
+  .svg-icon:hover {
+    transform: scale(1.2);
+  }  
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: var(--bright-color);
+  }
+  
+  .svg-icon circle {
+    stroke: var(--bright-color);
+    stroke-width: 1;
+  }
+
+  .footer-link-social-media~ .footer-link-social-media {
+      margin-left: 2em;
+  }
+
+  /* SVG ICONS END */
+
+/* FOOTER END */
+
+
+
+  @media screen and (min-width: 1024px) {
+    .footer-social-media-wrapper {
+        margin-top: 4em;
+    }
+
+}
