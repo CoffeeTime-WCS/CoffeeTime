@@ -60,16 +60,17 @@
     <section class="order">
       <div class="wrapper">
         <h1 class="order-h1">Order</h1>
+        <!-- FORM -->
         <form class="form" action="">
           <label class="order-input-label" for="place-order"
             >Place your order:</label
           >
           <select
-            class="order-input-width order-input order-input-margin"
+            class="order-input-width order-input order-input-margin order-select-one"
             name="place-order"
             id="place-order"
           >
-            <option value="">- Please select an option -</option>
+            <option value="" selected>- Please select an option -</option>
             <option value="coffea arabica">Coffea arabica</option>
             <option value="coffea canephora/robusta">
               Coffea canephora/robusta
@@ -83,19 +84,21 @@
             type="number"
             name="quantity"
             id="quantity"
+            min="0"
+            max="999"
           />
           <label class="order-input-label" for="delivery-address"
             >Delivery address:</label
           >
           <input
-            class="order-input-width order-input order-input-margin"
+            class="order-input-width order-input order-input-margin order-field"
             type="text"
             name="delivery-address"
             id="delivery-address"
           />
           <label class="order-input-label" for="email">Email:</label>
           <input
-            class="order-input-width order-input order-input-margin"
+            class="order-input-width order-input order-input-margin order-field"
             type="email"
             name="email"
             id="email"
@@ -104,17 +107,18 @@
             >Payment method:</label
           >
           <select
-            class="order-input-width order-input order-input-margin"
+            class="order-input-width order-input order-input-margin order-select-two"
             name="payment-method"
             id="payment-method"
           >
-            <option value="">- Please select an option -</option>
+            <option value="" selected>- Please select an option -</option>
             <option value="visa">Visa</option>
             <option value="mastercard">MasterCard</option>
             <option value="paypal">Paypal</option>
           </select>
           <button class="order-button button">Place your order</button>
         </form>
+        <!-- FORM END -->
       </div>
     </section>
     <!-- FOOTER -->
