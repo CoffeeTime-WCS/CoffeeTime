@@ -7,6 +7,7 @@ window.onscroll = function () {
  document.body; -> Safari
  document.documentElement; -> Chrome, Firefox, IE and Opera places the overflow at the <html> level, unless else is specified.
  Therefore, we use the documentElement property for these browsers
+ source: https://www.w3schools.com/jsref/prop_element_scrolltop.asp
   */
 
   if (
