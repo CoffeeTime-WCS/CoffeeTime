@@ -14,3 +14,51 @@ p {
     width:100%;
     height: auto;
 }
+
+
+@media screen and (min-width: 500px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    img {
+    width: 100%;
+    height: auto;
+}
+p {
+    width:100%;
+    height: auto;
+}
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+     /* HEADER */
+
+    .header-wrapper {
+        height: 115px;
+    }
+    
+    .menu-wrap .toggler,
+    .menu-wrap .hamburger {
+        top: 25px;
+        left: 35px;
+    }
+
+    /* HEADER END */
+
+}
