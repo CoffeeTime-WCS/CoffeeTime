@@ -1,0 +1,118 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bright-color: #f3f0ea;
+  --dark-color: #51392d;
+  --mid-color: #b89676;
+  --input-color: #e3dbc9;
+}
+
+body {
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
+  color: var(--dark-color);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+select,
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bg-img-wrapper {
+  position: relative;
+  height: calc(100vh - 80px);
+  z-index: -1;
+}
+
+.bg-img-div {
+  position: absolute;
+  top: -80px;
+  z-index: -1;
+  background-image: url("../assets/coffee-o-clock-2.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.aboutus-h1 {
+  margin: 2rem 0 1.5rem;
+}
+
+.aboutus-p {
+  margin: 0rem auto 5rem;
+}
+
+/* MEDIA QUERY 1024px AND UP */
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .bg-img-wrapper {
+    height: 650px;
+  }
+
+  .bg-img-div {
+    top: -100px;
+    height: 750px;
+  }
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .aboutus-h1 {
+    margin: 3rem 0 1.5rem;
+  }
+}
+
+/* MEDIA QUERY 1024px AND UP -- END */
