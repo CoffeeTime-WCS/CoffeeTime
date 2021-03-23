@@ -6,79 +6,80 @@ font-family: 'Raleway', sans-serif;
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --bright-color: #F3F0EA;
-    --dark-color: #51392D;
-    --mid-color: #B89676;
-    --input-color: #E3DBC9;
-  }
-
-body {
-    background-color: var(--bright-color);
-    color: var(--dark-color);
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+  --bright-color: #f3f0ea;
+  --dark-color: #51392d;
+  --mid-color: #b89676;
+  --input-color: #e3dbc9;
 }
 
-h1, h2 {
-    font-family: 'Dancing Script', cursive;
-    color: var(--dark-color);
+body {
+  background-color: var(--bright-color);
+  color: var(--dark-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
+  color: var(--dark-color);
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 input,
 select,
 button {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .order-h1 {
-    margin: 3rem 0 1.5rem;
+  margin: 3rem 0 1.5rem;
 }
 
 /* FORM */
 
 .order-input-label {
-    display: block;
-    font-size: 1.25rem;
-    margin-bottom: .75rem;
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .order-input-width {
-    width: 100%;
+  width: 100%;
 }
 
 .order-input-margin {
-    margin-bottom: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 .order-input {
-    height: 2.5rem;
-    border-radius: 8px;
-    border: none;
-    background-color: var(--input-color);
-    font-size: 1rem;
-    padding: 0 1rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--input-color);
+  font-size: 1rem;
+  padding: 0 1rem;
 }
 
 /* prevent chrome from changing .order-input background-color on focus as well */
@@ -86,61 +87,44 @@ button {
 .order-input:-webkit-autofill:hover,
 .order-input:-webkit-autofill:focus,
 .order-input:-webkit-autofill:active {
-    /* -webkit-transition-delay: 9999s;
+  /* -webkit-transition-delay: 9999s;
     -webkit-transition: color 9999s ease-out, background-color 9999s ease-out; */
-    -webkit-box-shadow: 0 0 0 30px var(--input-color) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--input-color) inset !important;
 }
 
 .order-button {
-    margin: 0rem auto 5rem;
+  margin: 0rem auto 5rem;
 }
 
 .order-button:hover,
 .order-button:focus {
-    background-color: var(--dark-color);
-    color: var(--bright-color);
-    cursor: pointer;
+  background-color: var(--dark-color);
+  color: var(--bright-color);
+  cursor: pointer;
 }
 
 /* FORM END */
 
-
-
-@media screen and (min-width: 500px) {
-    
-}
+/* MEDIA QUERY 1024px AND UP */
 
 @media screen and (min-width: 1024px) {
-    body {
-        font-size: 1rem;
-    }
+  body {
+    font-size: 1rem;
+  }
 
-    h1 {
-        font-size: 4.5rem;
-        font-weight: bold;
-    }
-    
-    h2 {
-        font-size: 2rem;
-    }
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
 
-    .wrapper {
-        width: 960px;
-        margin: 0 auto;
-    }
+  h2 {
+    font-size: 2rem;
+  }
 
-    /* HEADER */
-
-    .header-wrapper {
-        height: 115px;
-    }
-    
-    .menu-wrap .toggler,
-    .menu-wrap .hamburger {
-        top: 25px;
-        left: 35px;
-    }
-
-    /* HEADER END */
-
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
 }
+
+/* MEDIA QUERY 1024px AND UP -- END */
