@@ -1,186 +1,175 @@
-
-body { 
-    font-family: 'Raleway', sans-serif; 
-    font-size: 1rem; 
-    background-color: #F3F0EA; 
-    color:#51392D;
-    display: block;
-    line-height: 1.5;
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  background-color: #f3f0ea;
+  color: #51392d;
+  display: block;
+  line-height: 1.5;
 }
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: auto;
 }
 p {
-    width:100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
 
 /*SECTION*/
 .wrapper {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 .coffeetypes h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3em;
-    text-align: left;
-    margin-top: 3rem;
-    
-
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  text-align: left;
+  margin-top: 3rem;
 }
 
 .coffeetypes h2 {
-    /* font-family: 'Dancing Script', cursive; */
-    font-size: 2em;
-    text-align: left;
-    /* text-decoration: none; */
-    color: #B89676;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 2em;
+  text-align: left;
+  /* text-decoration: none; */
+  color: #b89676;
 }
 .coffeetypesA {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
-.coffeetypes h2:hover{
-    color:#51392D;
+.coffeetypes h2:hover {
+  color: #51392d;
 }
 .arabica-parent {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.arabica{
-    margin-top: 20px;
-    display: inline-flex;
-    flex-direction: column;
+.arabica {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
-.arabicaImg{
-    padding: 0 15px;
-    display: inline-flex;
+.arabicaImg {
+  padding: 0 15px;
+  display: inline-flex;
 }
-.arabica p{
-    padding: 10px 0;
-    display: inline-flex;
-    flex-direction: column;
+.arabica p {
+  padding: 10px 0;
+  display: inline-flex;
+  flex-direction: column;
 }
 .canephora-robusta-parent {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.canephora-robusta{
-    margin-top: 20px;
-    display: inline-flex;
-    flex-direction: column;
+.canephora-robusta {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
 }
-.canephora-robustaImg{
-    padding: 0 15px;
-    display: inline-flex;
+.canephora-robustaImg {
+  padding: 0 15px;
+  display: inline-flex;
 }
-.canephora-robusta p{
-    padding: 10px 0;
-    display: inline-flex;
-    flex-direction: column;
+.canephora-robusta p {
+  padding: 10px 0;
+  display: inline-flex;
+  flex-direction: column;
 }
 .excelsa-parent {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.excelsa{
-    margin-top: 20px;
-    display: inline-flex;
-    flex-direction: column;
+.excelsa {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
 }
-.excelsaImg{
-    padding: 0 15px;
-    display: inline-flex;
+.excelsaImg {
+  padding: 0 15px;
+  display: inline-flex;
 }
-.excelsa p{
-    padding: 10px 0;
-    display: inline-flex;
-    flex-direction: column;
+.excelsa p {
+  padding: 10px 0;
+  display: inline-flex;
+  flex-direction: column;
 }
 .liberica-parent {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
-.liberica{
-    margin-top: 20px;
-    display: inline-flex;
-    flex-direction: column;
+.liberica {
+  margin-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
 }
-.libericaImg{
-    padding: 0 15px;
-    display: inline-flex;
+.libericaImg {
+  padding: 0 15px;
+  display: inline-flex;
 }
-.liberica p{
-    padding: 10px 0;
-    display: inline-flex;
-    flex-direction: column;
+.liberica p {
+  padding: 10px 0;
+  display: inline-flex;
+  flex-direction: column;
 }
 /*SECTION END*/
 @media screen and (min-width: 500px) {
-    
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        font-size: 1rem;
-    }
+  body {
+    font-size: 1rem;
+  }
 
-    h1 {
-        font-size: 4.5rem;
-        font-weight: bold;
-    }
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
 
-    h2 {
-        font-size: 2rem;
-    }
+  h2 {
+    font-size: 2rem;
+  }
 
-    .wrapper {
-        width: 960px;
-        margin: 0 auto;
-    }
-    .arabica{
-        flex-direction: row;
-        
-    }
-    .arabicaP {
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .arabica {
+    flex-direction: row;
+  }
+  .arabicaP {
     width: 90%;
-}
-.canephora-robusta{
-        flex-direction: row;
-        
-    }
-.canephora-robustaP {
+  }
+  .canephora-robusta {
+    flex-direction: row;
+  }
+  .canephora-robustaP {
     width: 90%;
-}
-.excelsa{
-        flex-direction: row;
-        
-    }
-.excelsaP {
+  }
+  .excelsa {
+    flex-direction: row;
+  }
+  .excelsaP {
     width: 90%;
-}
-.liberica{
-        flex-direction: row;
-        
-    }
-.libericaP {
+  }
+  .liberica {
+    flex-direction: row;
+  }
+  .libericaP {
     width: 90%;
-}
-     /* HEADER */
+  }
+  /* HEADER */
 
-    .header-wrapper {
-        height: 115px;
-    }
-    
-    .menu-wrap .toggler,
-    .menu-wrap .hamburger {
-        top: 25px;
-        left: 35px;
-    }
+  .header-wrapper {
+    height: 115px;
+  }
 
-    /* HEADER END */
+  .menu-wrap .toggler,
+  .menu-wrap .hamburger {
+    top: 25px;
+    left: 35px;
+  }
 
+  /* HEADER END */
 }
