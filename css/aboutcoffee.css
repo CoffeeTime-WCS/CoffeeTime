@@ -19,6 +19,11 @@ p {
     margin-top:30px;
     margin-bottom: 70px;
 }
+
+.aboutcoffeeH1 {
+    margin-top:3rem;
+    margin-bottom:40px;
+}
 @media screen and (min-width: 500px) {
     
 }
