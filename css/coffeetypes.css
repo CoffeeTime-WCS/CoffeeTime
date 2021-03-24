@@ -52,6 +52,7 @@ p {
 
 .arabicaImg {
   padding: 0 15px;
+  display: inline-flex;
 }
 .arabica p {
   padding: 10px 0;
@@ -69,6 +70,7 @@ p {
 }
 .canephora-robustaImg {
   padding: 0 15px;
+  display: inline-flex;
 }
 .canephora-robusta p {
   padding: 10px 0;
@@ -86,6 +88,7 @@ p {
 }
 .excelsaImg {
   padding: 0 15px;
+  display: inline-flex;
 }
 .excelsa p {
   padding: 10px 0;
@@ -103,6 +106,7 @@ p {
 }
 .libericaImg {
   padding: 0 15px;
+  display: inline-flex;
 }
 .liberica p {
   padding: 10px 0;
